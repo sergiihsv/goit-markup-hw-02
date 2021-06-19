@@ -1,0 +1,52 @@
+body {
+  background-color: #ffffff;
+  color: #212121;
+  font-family: Roboto, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.logo-accent {
+  color: #2196f3;
+}
+
+.logo-accent-two {
+  color: #000000;
+}
+
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.contact-nav .list {
+  color: #757575;
+}
+
+.contact-nav .list:hover,
+.contact-nav .list:focus {
+  color: #2196f3;
+}
+
+.order {
+  background-color: #2f303a;
+}
