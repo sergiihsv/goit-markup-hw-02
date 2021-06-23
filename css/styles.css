@@ -5,6 +5,8 @@
   --accent-color: #2196f3;
   --background-color: #2f303a;
   --background-color-2: #f5f4fa;
+  --contacts-text-color: rgba(255, 255, 255, 0.6);
+  --header-logo-color: #000000;
 }
 
 body {
@@ -21,24 +23,27 @@ ul {
   list-style: none;
 }
 
-.logo {
+.header-logo {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+  color: var(--header-logo-color);
 }
 
-.logo-accent {
+.header-web {
   color: var(--accent-color);
 }
 
-.logo-accent-two {
-  color: #000000;
-}
-
 .site-nav .link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
 
@@ -47,8 +52,18 @@ ul {
   color: var(--accent-color);
 }
 
-.contact-nav .link {
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.site-nav .contact-nav .link {
   color: var(--title-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 .contact-nav .link:hover,
@@ -104,11 +119,41 @@ ul {
   background-color: var(--background-color);
 }
 
-.footer-contacts .link {
-  color: var(--title-text-color);
+.contact-address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: px;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+.footer-contacts {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--contacts-text-color);
 }
 
 .footer-contacts .link:hover,
 .footer-contacts .link:focus {
+  color: var(--accent-color);
+}
+
+.footer-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+.footer-web {
   color: var(--accent-color);
 }
