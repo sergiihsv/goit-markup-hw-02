@@ -27,7 +27,7 @@ ul {
 
 .header-logo {
   font-family: "Raleway", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -37,7 +37,7 @@ ul {
 .header-web {
   color: var(--accent-color);
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -114,7 +114,7 @@ ul {
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
   font-family: "Roboto", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   align-items: center;
@@ -131,7 +131,7 @@ ul {
 .section-title {
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -140,8 +140,7 @@ ul {
 
 .section-item {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -151,7 +150,7 @@ ul {
 .section-text {
   font-family: "Roboto", sans-serif;
   color: var(--title-text-color);
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -169,15 +168,17 @@ ul {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .team-post {
   font-family: "Roboto", sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  text-align: center;
 }
 
 /* FOOTER */
@@ -189,7 +190,7 @@ ul {
 .contact-address {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -199,7 +200,7 @@ ul {
 .footer-contacts {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -214,7 +215,7 @@ ul {
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -254,7 +255,7 @@ ul {
   font-family: "Roboto", sans-serif;
   color: var(--primary-text-color);
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -263,7 +264,7 @@ ul {
 .product-name {
   font-family: "Roboto", sans-serif;
   color: var(--title-text-color);
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
